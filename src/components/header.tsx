@@ -3,7 +3,7 @@ function Header() {
         <>
         <div className="flex h-25 justify-between items-center p-5 bg-green-600 text-white ">
             <div>
-                <img className="w-22 h-20" src="/public/logo.png" alt="" />
+                <img className="w-22 h-20" src="/logo.png" alt="" />
             </div>
             <div className="gap-4 flex align-center justify-center">
                 <a className="text-yellow-400 font-bold" href="">Главная</a>
