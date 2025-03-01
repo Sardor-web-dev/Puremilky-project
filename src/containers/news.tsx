@@ -7,12 +7,12 @@ const News = () => {
                 <div className="flex items-center gap-5">
                 <span className="text-left w-65">Puremilky - молочная продукция фермерского производства, изготавливается согласно 
                 требованиям европейского качества</span>
-                <img className="w-10" src="/public/left.png" alt="" />
-                <img className="w-10" src="/public/right.png" alt="" />
+                <img className="w-10" src="/left.png" alt="" />
+                <img className="w-10" src="/right.png" alt="" />
                 </div>
             </div>
-            <div className="flex items-center gap-55">
-                <div className="flex flex-col gap-5 my-15 border-2 p-5">
+            <div className="flex items-center gap-55 p-5">
+                <div className="flex flex-col gap-5 my-15 p-5 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
                     <div className="bg-yellow-400 w-40 h-10 rounded-4xl flex items-center justify-center font-bold">
                         <p>Акция</p>
                     </div>
@@ -22,7 +22,7 @@ const News = () => {
                 <button className="bg-green-600 text-white w-50 h-12 rounded-xl p-2 text-center">Заполнить анкету</button>
                 </div>
 
-                <div className="flex flex-col gap-5 my-15 border-2 p-5">
+                <div className="flex flex-col gap-5 my-15 p-5 shadow-[0_3px_10px_rgb(0,0,0,0.2)] ">
                     <div className="bg-yellow-400 w-40 h-10 rounded-4xl flex items-center justify-center font-bold">
                         <p>Акция</p>
                     </div>
