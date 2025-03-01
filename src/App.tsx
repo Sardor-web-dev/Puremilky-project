@@ -1,7 +1,7 @@
 // import { Routes } from "react-router-dom"
 import { useEffect } from "react"
 import { useState } from "react";
-import Header from "./components/header";
+import Home from "./pages/Home";
 
 interface product {
   id: number;
@@ -23,7 +23,8 @@ function App() {
 
   return (
     <>
-  <Header/>
+    <Home/>
+  {/* <Header/>
       <div className="bg-gray-100 grid grid-cols-3 gap-10 p-10">
         {products.map((product) => (
           <div key={product.id} className = 'flex flex-col gap-5 align-center justify-center rounded-lg shadow-md '>
@@ -33,7 +34,7 @@ function App() {
             <img className="w-100 h-100" src={product.thumbnail} alt={product.title} />
           </div>
         ))}
-      </div>
+      </div> */}
     </>
   )
 }
