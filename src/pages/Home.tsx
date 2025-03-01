@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import About from "../containers/aboutus";
 import Main from "../containers/main-container";
 import News from "../containers/news";
@@ -12,6 +13,7 @@ const Home = () => {
         <Profits/>
         <News/>
         <About/>
+        <Footer/>
         </>
     );
 }
