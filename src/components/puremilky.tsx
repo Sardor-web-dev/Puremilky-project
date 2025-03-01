@@ -1,11 +1,4 @@
-import { Production } from "../utils/productionArr.js";
-
-
-interface product {
-    id: number;
-    name: string;
-    Image: string;
-}
+import { Production, product } from "../utils/productionArr.ts";
 
 const Milks = () => {
     return (

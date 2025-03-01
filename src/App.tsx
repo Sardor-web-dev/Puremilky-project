@@ -1,25 +1,25 @@
 // import { Routes } from "react-router-dom"
-import { useEffect } from "react"
-import { useState } from "react";
+// import { useEffect } from "react"
+// import { useState } from "react";
 import Home from "./pages/Home";
 
-interface product {
-  id: number;
-  title: string;
-  description: string;
-  price: number;
-  thumbnail: string;
-}
+// interface product {
+//   id: number;
+//   title: string;
+//   description: string;
+//   price: number;
+//   thumbnail: string;
+// }
 
 function App() {
 
-  const [products, setProduct] = useState<product[]>([]);
+  // const [products, setProduct] = useState<product[]>([]);
 
-  useEffect(() =>{
-    fetch('https://dummyjson.com/products')
-  .then((res) => res.json())
-  .then((res) => setProduct(res.products));
-  })
+  // useEffect(() =>{
+  //   fetch('https://dummyjson.com/products')
+  // .then((res) => res.json())
+  // .then((res) => setProduct(res.products));
+  // })
 
   return (
     <>

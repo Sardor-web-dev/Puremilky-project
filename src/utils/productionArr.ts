@@ -1,4 +1,10 @@
-export const Production = [
+export interface product {
+    id: number;
+    name: string;
+    Image: string;
+}
+
+export const Production: product[] = [
     {
         id: 1,
         name:'Сыр',
