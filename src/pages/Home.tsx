@@ -1,3 +1,4 @@
+import About from "../containers/aboutus";
 import Main from "../containers/main-container";
 import News from "../containers/news";
 import Products from "../containers/production";
@@ -10,6 +11,7 @@ const Home = () => {
         <Products/>
         <Profits/>
         <News/>
+        <About/>
         </>
     );
 }
