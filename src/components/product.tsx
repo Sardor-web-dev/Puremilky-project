@@ -20,10 +20,10 @@ const Product = () => {
                     />
                     <div className="flex justify-between items-center bg-green-600 p-4 text-white">
                         <div>
-                        <span className="text-2xl">{product.title}</span>
+                        <span className="lg:text-2xl">{product.title}</span>
                         <p>{product.description}</p>
                         </div>
-                        <img className="w-5 h-8 cursor-pointer" src="/arrow.png" alt="" />
+                        <img className="w-4 h-4 lg:w-5 lg:h-8 cursor-pointer" src="/arrow.png" alt="" />
                     </div>
                 </div>
             ))}
