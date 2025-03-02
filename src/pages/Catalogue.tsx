@@ -1,9 +1,9 @@
-import Header from "../components/header";
+import MainCatalogue from "../containers/main-catalogue";
 
 const Catalogue = () => {
     return (
         <>
-        <Header/>
+        <MainCatalogue/>
         </>
     );
 }

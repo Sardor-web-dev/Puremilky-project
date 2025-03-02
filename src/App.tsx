@@ -1,7 +1,8 @@
 // import { Routes } from "react-router-dom"
 // import { useEffect } from "react"
 // import { useState } from "react";
-import Home from "./pages/Home";
+import Catalogue from "./pages/Catalogue";
+// import Home from "./pages/Home";
 
 // interface product {
 //   id: number;
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <>
-    <Home/>
+    {/* <Home/> */}
+    <Catalogue/>
   {/* <Header/>
       <div className="bg-gray-100 grid grid-cols-3 gap-10 p-10">
         {products.map((product) => (
