@@ -1,37 +1,32 @@
 const Profits = () => {
     return (
-        <>
-            <div className="bg-white p-8 max-w-6xl mx-auto">
-                <div className="flex flex-col items-center mb-10">
-                    <div className="w-full flex justify-between items-center">
-                        <h1 className="text-green-700 text-5xl font-bold">Преимущества <br /> продуктов</h1>
-                        <span>Puremilky - молочная продукция фермерского производства, <br /> изготавливается согласно <br />
-                            требованиям европейского качества</span>
-                    </div>
-                    <div className="w-full h-300 bg-[url('/cow.png')] bg-no-repeat bg-cover bg-center my-25 justify-center items-center flex">
-                        <div className="flex flex-col gap-40">
-                            <div className="flex gap-50">
-                            <div className="bg-green-600 text-white w-100 h-35 p-5 rounded-lg">
-                                <p className="text-left">Puremilky - молочная продукция фермерского производства, изготавливается согласно требованиям европейского качества</p>
-                            </div>
-                            <div className="bg-green-600 text-white my-25 w-100 h-35 p-5 rounded-lg">
-                                <p className="text-left">Puremilky - молочная продукция фермерского производства, изготавливается согласно требованиям европейского качества</p>
-                            </div>
-                            </div>
-                            <div className="flex gap-50">
-                            <div className="bg-green-600 text-white w-100 h-35 p-5 rounded-lg">
-                                <p className="text-left">Puremilky - молочная продукция фермерского производства, изготавливается согласно требованиям европейского качества</p>
-                            </div>
-                            <div className="bg-green-600 my-25 text-white w-100 h-35 p-5 rounded-lg">
-                                <p className="text-left">Puremilky - молочная продукция фермерского производства, изготавливается согласно требованиям европейского качества</p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+        <div className="bg-white p-8 max-w-3xl mx-auto">
+            <h1 className="text-green-700 text-3xl font-bold">ПРЕИМУЩЕСТВА <br /> ПРОДУКТОВ</h1>
+            <p className="text-gray-700 mt-2 mb-6">
+                Мы используем оптимальную технологию производства молочных изделий, из продуктов которые были 
+                выращены в лучших условиях на отдельной ферме
+            </p>
+            <div className="relative">
+                <img src="/cow.png" alt="Коровы на ферме" className="w-full rounded-lg" />
+                
+                <div className="absolute top-5 left-5 bg-green-600 text-white p-3 rounded-lg w-56 shadow-lg">
+                    <p>Puremilky - молочная фермерского производства, изготавливается согласно требованиям европейского</p>
+                </div>
+                
+                <div className="absolute top-1/3 right-5 bg-green-600 text-white p-3 rounded-lg w-56 shadow-lg">
+                    <p>Puremilky - молочная фермерского производства, изготавливается согласно требованиям европейского</p>
+                </div>
+                
+                <div className="absolute bottom-1/3 left-5 bg-green-600 text-white p-3 rounded-lg w-56 shadow-lg">
+                    <p>Puremilky - молочная фермерского производства, изготавливается согласно требованиям европейского</p>
+                </div>
+                
+                <div className="absolute bottom-5 right-5 bg-green-600 text-white p-3 rounded-lg w-56 shadow-lg">
+                    <p>Puremilky - молочная фермерского производства, изготавливается согласно требованиям европейского</p>
                 </div>
             </div>
-        </>
+        </div>
     );
-}
+};
 
 export default Profits;

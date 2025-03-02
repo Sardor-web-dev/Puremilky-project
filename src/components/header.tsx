@@ -10,7 +10,8 @@ function Header() {
             <div>
                 <img onClick={() => navigate('/')} className="w-22 h-20 cursor-pointer" src="/logo.png" alt="" />
             </div>
-            <div className="gap-4 flex items-center">
+            <img className="flex md:hidden lg:hidden" src="/menu.svg" alt="" />
+            <div className="hidden md:gap-2 md:flex md:items-center lg:gap-4 lg:flex lg:items-center">
                 <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="/">Главная</Link>
                 <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="/catalogue">Продукция</Link>
                 <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">О компании</Link>
@@ -19,7 +20,7 @@ function Header() {
                 <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">Контакты</Link>
                 <Link className="hover:text-yellow-400 hover:underline hover:font-bold flex items-center" to = ''>Вакансии <span className="bg-yellow-500 rounded-full text-white px-2 ml-1">2</span></Link>
             </div>
-            <div className="gap-3 flex align-center justify-center">
+            <div className="hidden  md:gap-1 md:flex md:items-center  lg:gap-3 lg:flex lg:align-center lg:justify-center">
                 <p>UZB</p>
                 <p className="text-yellow-400 font-bold">RUS</p>
                 <p>ENG</p>
