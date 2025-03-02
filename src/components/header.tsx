@@ -10,7 +10,7 @@ function Header() {
             </div>
             <div className="gap-4 flex align-center justify-center">
                 <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="/">Главная</a>
-                <a onClick={() => navigate('/catalogue')} className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Продукция</a>
+                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="/catalogue">Продукция</a>
                 <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">О компании</a>
                 <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Рецепты</a>
                 <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Блог</a>
