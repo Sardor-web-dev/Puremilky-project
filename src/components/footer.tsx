@@ -1,7 +1,6 @@
 function Footer() {
     return (
         <>
-        <div className="flex flex-col max-w-6x mx-auto py-10">
             <div className="flex justify-between mx-auto gap-77 max-w-5xl p-10 rounded-xl items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
                 <div className="flex flex-col gap-4">
                     <h1 className="text-6xl text-green-700 font-bold">ОСТАЛИСЬ <br /> ВОПРОСЫ?</h1>
@@ -9,14 +8,13 @@ function Footer() {
                 </div>
                     <form className="flex flex-col gap-5 items-center justify-center" name="request">
                         <input className="w-80 h-15 p-5 bg-gray-200 rounded-xl" type="text" placeholder="ВАШЕ ИМЯ" />
-                        <input className="w-80 h-15 p-5 bg-gray-200 rounded-xl" type="number" placeholder="НОМЕР ТЕЛЕФОНА" />
+                        <input className="w-80 h-15 p-5 bg-gray-200 rounded-xl" type="tel" placeholder="НОМЕР ТЕЛЕФОНА" />
                         <button className="w-80 h-15 bg-green-600 rounded-xl text-white cursor-pointer">Отправить заявку</button>
                     </form>
             </div>
-            <div  className=" bg-[url('/kefir.png')] h-34 bg-cover bg-center">
-
-            </div>
-            <div className=" bg-green-500 flex justify-between items-center p-10 gap-10">
+        <div className="flex flex-col gap-10 bg-green-500">
+            <div className="bg-[url('/kefir.png')] h-40 bg-cover"></div>
+            <div className=" bg-green-500 flex w-full h-70 justify-between items-center px-10 gap-10">
                 <div>
                     <img src="/logo.png" alt="" />
                 </div>
