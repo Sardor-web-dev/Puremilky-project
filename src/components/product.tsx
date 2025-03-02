@@ -1,4 +1,12 @@
-import { Products, product } from "../utils/products.ts";
+import {  Products } from "../utils/products.ts";
+
+interface product {
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+}
+
 
 const Product = () => {
     return (

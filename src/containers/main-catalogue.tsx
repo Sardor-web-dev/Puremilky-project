@@ -1,6 +1,5 @@
 import Header from "../components/header";
 import Product from "../components/product";
-import Milks from "../components/puremilky";
 
 function MainCatalogue() {
     return (

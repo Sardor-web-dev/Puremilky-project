@@ -1,12 +1,4 @@
-interface product {
-    id: number;
-    title: string;
-    description: string;
-    image: string;
-}
-
-
-export const Products:product[] = [
+export const Products = [
     {
         id: 1,
         title: 'Кефир Puremilky',
