@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 function Header() {
     const navigate = useNavigate();
@@ -8,14 +10,14 @@ function Header() {
             <div>
                 <img onClick={() => navigate('/')} className="w-22 h-20 cursor-pointer" src="/logo.png" alt="" />
             </div>
-            <div className="gap-4 flex align-center justify-center">
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="/">Главная</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="/catalogue">Продукция</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">О компании</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Рецепты</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Блог</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Контакты</a>
-                <a className="hover:text-yellow-400 hover:underline hover:font-bold" href="">Вакансии <span className="bg-yellow-500 rounded-full text-white px-2 ">2</span></a>
+            <div className="gap-4 flex items-center">
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="/">Главная</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="/catalogue">Продукция</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">О компании</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">Рецепты</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">Блог</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold" to="">Контакты</Link>
+                <Link className="hover:text-yellow-400 hover:underline hover:font-bold flex items-center" to = ''>Вакансии <span className="bg-yellow-500 rounded-full text-white px-2 ml-1">2</span></Link>
             </div>
             <div className="gap-3 flex align-center justify-center">
                 <p>UZB</p>
@@ -28,3 +30,4 @@ function Header() {
 }
 
 export default Header;
+
