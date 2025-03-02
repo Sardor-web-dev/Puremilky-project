@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import Milks from "../components/puremilky";
 
 const Products = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="bg-white p-8 max-w-6xl mx-auto my-20">
             <div className="flex justify-between items-center mb-6">
@@ -12,7 +15,7 @@ const Products = () => {
                     уникального производства <br />
                     по лучшим рецептам
                 </div>
-                <button className="bg-green-600 text-white cursor-pointer w-55 h-15 rounded-lg :hover:bg-green-900">
+                <button onClick={() => navigate('/catalogue')} className="bg-green-600 text-white cursor-pointer w-55 h-15 rounded-lg :hover:bg-green-900">
                     Открыть каталог
                 </button>
             </div>
